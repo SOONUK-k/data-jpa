@@ -39,6 +39,8 @@ public interface MemberRepository extends JpaRepository<Member, Long> {
                     countQuery = "select count(m) from Member m")
     Page<Member> findByAge(int age, Pageable pageable);
 
+    Pageable
+
     @Modifying(clearAutomatically = true)
     @Query("update Member m set m.age = m.age+1 where m.age >= :age")
     int bulkAgePlus(@Param("age") int age);

@@ -38,19 +38,19 @@ public class MemberController {
         return map;
     }
 
-    @PostConstruct
-    public void init() {
-        memberRepository.save(new Member("userA"));
-        memberRepository.save(new Member("userB"));
-        memberRepository.save(new Member("userC"));
-        memberRepository.save(new Member("userD"));
-        memberRepository.save(new Member("userE"));
-        memberRepository.save(new Member("userF"));
-        memberRepository.save(new Member("userG"));
-        memberRepository.save(new Member("userH"));
-        memberRepository.save(new Member("userI"));
-        memberRepository.save(new Member("userJ"));
-        memberRepository.save(new Member("userK"));
-    }
+//    @PostConstruct
+//    public void init() {
+//        memberRepository.save(new Member("userA"));
+//        memberRepository.save(new Member("userB"));
+//        memberRepository.save(new Member("userC"));
+//        memberRepository.save(new Member("userD"));
+//        memberRepository.save(new Member("userE"));
+//        memberRepository.save(new Member("userF"));
+//        memberRepository.save(new Member("userG"));
+//        memberRepository.save(new Member("userH"));
+//        memberRepository.save(new Member("userI"));
+//        memberRepository.save(new Member("userJ"));
+//        memberRepository.save(new Member("userK"));
+//    }
     
 }
